@@ -45,10 +45,6 @@ def get_latest_gas_price():
     df.to_csv('data/keswick_gas_prices_tracker.csv', index=False)
 
 
-
-
-
-
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     get_latest_gas_price()
