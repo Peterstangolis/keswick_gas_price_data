@@ -36,6 +36,7 @@ jobs:
           git config --local user.email "pstangolis@gmail.com"
           git add -A
           git commit -am "GH ACTION Headlines $(date)"
+          git push origin main
           
       - name: Push changes
         uses: add-m/github-push-action@v0.6.0
